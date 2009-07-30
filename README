@@ -1,0 +1,9 @@
+blurry.mootools.js
+
+@description: MooTools Element method to create an animated blur of an element
+@author: Adam Fisher (adamnfish)
+@version: 0.1 (alpha)
+@licence: MIT-Style
+@website: http://www.adamnfish.com/projects/blurry/
+@github: http://github.com/adamnfish/blurry/tree
+@requires: MooTools 1.2+
