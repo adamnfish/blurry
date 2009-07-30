@@ -37,13 +37,12 @@ Element.implement({
                     left: coords.left.toInt() + $random(-options.offset, options.offset)
                 });
                 timer = options.animate ? animate.delay($random(options.duration / 2, options.duration * 1.5)) : false;
-            }.bind(this),
+            },
             timer = false;
-       
         this.store("blurry_cancel", function(){
             $clear(timer);
             clone.destroy();
-        }.bind(this));
+        });
         // start
         animate();
         return this;
